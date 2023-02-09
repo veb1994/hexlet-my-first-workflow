@@ -2,7 +2,7 @@ name: say-hello command runner
 run-name: ${{ github.actor }} is doing smth suspicious
 on: [push]
 jobs:
-  execute "make say-hello" command:
+  execute-make-say-hello-command:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
